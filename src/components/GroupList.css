@@ -1,0 +1,30 @@
+.GroupList{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.GroupListAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 100%;
+}
+.GroupListAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    margin: 20px;
+
+    background-color: rgb(55, 82, 90);
+    color: white;
+    border-radius: 25px;
+
+    cursor: pointer;
+}

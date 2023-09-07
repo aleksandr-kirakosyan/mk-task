@@ -1,0 +1,63 @@
+.GroupItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    background-color: rgb(178, 199, 207);
+    border-bottom: 1px solid rgb(150, 175, 185);
+
+    color: black;
+
+    width: 100%;
+}
+.GroupItemButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.GroupItemButtons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.GroupItemTitleNSub{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.GroupItemTitleNSub  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+.GroupItemTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.SubgroupList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.SubgroupList li{
+    margin-left: 20px;
+}
